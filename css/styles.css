@@ -1,19 +1,19 @@
 @font-face {
     font-family: 'Suisse';
-    src: url(/fonts/SuisseIntl-Regular.woff) format('woff');
+    src: url(./fonts/SuisseIntl-Regular.woff) format('woff');
     font-weight: 400;
   }
 
   @font-face {
     font-family: 'WulkanDisplay';
-    src: url(/fonts/WulkanDisplay-SemiBoldItalic.woff) format('woff');
+    src: url(./fonts/WulkanDisplay-SemiBoldItalic.woff) format('woff');
     font-style: italic;
     font-weight: 400;
   }
 
   @font-face {
     font-family: 'SuisseIntl-SemiBold';
-    src: url(/yoursite/fonts/SuisseIntl-SemiBold.woff) format('woff');
+    src: url(./fonts/SuisseIntl-SemiBold.woff) format('woff');
     font-weight: 400;
   }
 
@@ -54,13 +54,13 @@ html, body {
   }
 
 .gradient-background {
-    background-image: url(/img/gradient-background.jpg);
+    background-image: url(./img/gradient-background.jpg);
     min-height: 100%;
     width: 100%;
 }
 
 .logo {
-    background-image: url(/img/logo.png);
+    background-image: url(./img/logo.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 154px;
@@ -90,7 +90,7 @@ html, body {
     position: absolute;
     width: 88%;
     height: 100%;
-    background-image: url(/img/pyramids.png);
+    background-image: url(./img/pyramids.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: bottom;
@@ -100,7 +100,7 @@ html, body {
 }
 
 .people-background {
-    background-image: url(/img/people-background.png);
+    background-image: url(./img/people-background.png);
     background-repeat: no-repeat;
     background-size: 175% 100%;
     width: 100%;
@@ -111,7 +111,7 @@ html, body {
 }
 
 .statue-background {
-    background-image: url(/img/statue.png);
+    background-image: url(./img/statue.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: bottom;
@@ -124,7 +124,7 @@ html, body {
 }
 
 .firework-xl {
-    background-image: url(/img/firework-xl.png);
+    background-image: url(./img/firework-xl.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 22%;
@@ -136,7 +136,7 @@ html, body {
 }
 
 .firework-l {
-    background-image: url(/img/firework-l.png);
+    background-image: url(./img/firework-l.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 20%;
@@ -148,7 +148,7 @@ html, body {
 }
 
 .firework-m {
-    background-image: url(/img/firework-m.png);
+    background-image: url(./img/firework-m.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 15%;
@@ -160,7 +160,7 @@ html, body {
 }
 
 .firework-s {
-    background-image: url(/img/firework-s.png);
+    background-image: url(./img/firework-s.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 10%;
@@ -181,7 +181,7 @@ html, body {
 }
 
 .light-left {
-    background-image: url(/img/light-left.png);
+    background-image: url(./img/light-left.png);
     width: 45%;
     height: 100%;
     top: -160%;
@@ -191,7 +191,7 @@ html, body {
 }
 
 .light-right {
-    background-image: url(/img/light-right.png);
+    background-image: url(./img/light-right.png);
     width: 50%;
     height: 100%;
     top: -163%;
@@ -201,7 +201,7 @@ html, body {
 }
 
 .light-right-bottom {
-    background-image: url(/img/light-left.png);
+    background-image: url(./img/light-left.png);
     background-size: cover;
     width: 40%;
     height: 100%;
@@ -210,7 +210,7 @@ html, body {
 }
 
 .stars-background {
-    background-image: url(/img/stars.png);
+    background-image: url(./img/stars.png);
     background-size: 120% 120%;
     background-repeat: no-repeat;
     background-position-x: -200px;
@@ -222,7 +222,7 @@ html, body {
 }
 
 .koala {
-    background-image: url(/img/koala.png);
+    background-image: url(./img/koala.png);
     background-size: contain;
     background-repeat: no-repeat;
     background-position-y: bottom;
@@ -281,7 +281,7 @@ html, body {
 }
 
 .plus {
-    background-image: url(/img/plus.png);
+    background-image: url(./img/plus.png);
     background-repeat: no-repeat;
     height: 50px;
     width: 61px;
@@ -334,7 +334,7 @@ button:hover {
 }
 
 .minor {
-    background-image: url(/img/18.png);
+    background-image: url(./img/18.png);
     width: 50px;
     height: 50px;
     background-size: contain;
@@ -343,7 +343,7 @@ button:hover {
 }
 
 .legal {
-    background-image: url(/img/legal.png);
+    background-image: url(./img/legal.png);
     width: 50px;
     height: 50px;
     background-size: contain;
